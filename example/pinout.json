@@ -1,0 +1,602 @@
+{
+    "1": {
+        "name": "BOOT1",
+        "type": "I",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "2": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "3": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "4": {
+        "name": "SPI1_SCLK",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "5": {
+        "name": "SPI1_MOSI",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "6": {
+        "name": "VDD_33",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply pads 3.3V"
+    },
+    "7": {
+        "name": "SPI1_MISO",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "8": {
+        "name": "SPI1_SS",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "9": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "10": {
+        "name": "MDC",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "11": {
+        "name": "MDIO",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "12": {
+        "name": "VDD_18",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply 1.8V"
+    },
+    "13": {
+        "name": "ALOS",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "14": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "15": {
+        "name": "VDD1P8",
+        "type": "P",
+        "standard": "1.8V",
+        "description": "Supply LVDS 1.8V"
+    },
+    "16": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "17": {
+        "name": "TXD_P",
+        "type": "O",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "18": {
+        "name": "TXD_N",
+        "type": "O",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "19": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "20": {
+        "name": "TCLK_P",
+        "type": "O",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "21": {
+        "name": "TCLK_N",
+        "type": "O",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "22": {
+        "name": "VDD1P8",
+        "type": "P",
+        "standard": "1.8V",
+        "description": "Supply LVDS 1.8V"
+    },
+    "23": {
+        "name": "RXD_P",
+        "type": "I",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "24": {
+        "name": "RXD_N",
+        "type": "I",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "25": {
+        "name": "VTT",
+        "type": "A",
+        "standard": "",
+        "description": "Reference voltage"
+    },
+    "26": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "27": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "28": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "29": {
+        "name": "VDDO_VCO",
+        "type": "PO",
+        "standard": "",
+        "description": "VCO LDO output"
+    },
+    "30": {
+        "name": "VDDO_PLL",
+        "type": "PO",
+        "standard": "",
+        "description": "PLL LDO output"
+    },
+    "31": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "32": {
+        "name": "R_EXT",
+        "type": "A",
+        "standard": "",
+        "description": "Reference resistor 12.1 k\u03a9"
+    },
+    "33": {
+        "name": "VDD1P8",
+        "type": "P",
+        "standard": "1.8V",
+        "description": "Supply LVDS 1.8V"
+    },
+    "34": {
+        "name": "RCLK_N",
+        "type": "O",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "35": {
+        "name": "RCLK_P",
+        "type": "O",
+        "standard": "LVDS 1.8V",
+        "description": ""
+    },
+    "36": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "37": {
+        "name": "VDD_18",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply 1.8V"
+    },
+    "38": {
+        "name": "XIN",
+        "type": "AI",
+        "standard": "CMOS 1.8V",
+        "description": "XTAL pads"
+    },
+    "39": {
+        "name": "XOUT",
+        "type": "AO",
+        "standard": "CMOS 1.8V",
+        "description": "XTAL pads"
+    },
+    "40": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "41": {
+        "name": "RST_OUT",
+        "type": "O",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "42": {
+        "name": "RESET",
+        "type": "I",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "43": {
+        "name": "VDD_18",
+        "type": "P",
+        "standard": "1.8V",
+        "description": "Supply  1.8V"
+    },
+    "44": {
+        "name": "TDO",
+        "type": "O",
+        "standard": "CMOS 3.3V",
+        "description": "JTAG"
+    },
+    "45": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "46": {
+        "name": "TRST",
+        "type": "I",
+        "standard": "CMOS 3.3V",
+        "description": "JTAG"
+    },
+    "47": {
+        "name": "TCK",
+        "type": "I",
+        "standard": "CMOS 3.3V",
+        "description": "JTAG"
+    },
+    "48": {
+        "name": "TMS",
+        "type": "I",
+        "standard": "CMOS 3.3V",
+        "description": "JTAG"
+    },
+    "49": {
+        "name": "VDD_33",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply pads 3.3V"
+    },
+    "50": {
+        "name": "TDI",
+        "type": "I",
+        "standard": "CMOS 3.3V",
+        "description": "JTAG"
+    },
+    "51": {
+        "name": "TM",
+        "type": "I",
+        "standard": "CMOS 3.3V",
+        "description": "SCAN"
+    },
+    "52": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "53": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "54": {
+        "name": "VDD_33",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply pads 3.3V"
+    },
+    "55": {
+        "name": "GPIO0",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "56": {
+        "name": "GPIO1",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "57": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "58": {
+        "name": "GPIO2",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "59": {
+        "name": "GPIO3",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "60": {
+        "name": "VDD_18",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply  1.8V"
+    },
+    "61": {
+        "name": "GPT0",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "62": {
+        "name": "GPT1",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "63": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "64": {
+        "name": "GPT2",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "65": {
+        "name": "GPT3",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "66": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "67": {
+        "name": "TDM_RVIT",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "68": {
+        "name": "TDM_RSYNC",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "69": {
+        "name": "TDM_RCLK",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "70": {
+        "name": "TDM_WVIT",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "71": {
+        "name": "VDD_33",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply pads 3.3V"
+    },
+    "72": {
+        "name": "TDM_WSYNC",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "73": {
+        "name": "TDM_WCLK",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "74": {
+        "name": "I2C_SCL",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "75": {
+        "name": "I2C_SDA",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "76": {
+        "name": "UART0_DTR",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "77": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "78": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "79": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "80": {
+        "name": "UART0_DSR",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "81": {
+        "name": "UART0_RTS",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "82": {
+        "name": "VDD_33",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply pads 3.3V"
+    },
+    "83": {
+        "name": "UART0_CTS",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "84": {
+        "name": "UART0_TXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "85": {
+        "name": "UART0_RXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "86": {
+        "name": "VDD_18",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply  1.8V"
+    },
+    "87": {
+        "name": "SPI0_SCLK",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "88": {
+        "name": "SPI0_MOSI",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "89": {
+        "name": "VSS",
+        "type": "P",
+        "standard": "0V",
+        "description": "Ground"
+    },
+    "90": {
+        "name": "SPI0_MISO",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "91": {
+        "name": "SPI0_SS",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "92": {
+        "name": "VDD",
+        "type": "P",
+        "standard": "1.2V",
+        "description": "Supply core"
+    },
+    "93": {
+        "name": "UART3_TXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "94": {
+        "name": "UART3_RXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "95": {
+        "name": "VDD_33",
+        "type": "P",
+        "standard": "3.3V",
+        "description": "Supply pads 3.3V"
+    },
+    "96": {
+        "name": "UART2_TXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "97": {
+        "name": "UART2_RXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "98": {
+        "name": "UART1_TXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "99": {
+        "name": "UART1_RXD",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    },
+    "100": {
+        "name": "BOOT0",
+        "type": "IO",
+        "standard": "CMOS 3.3V",
+        "description": ""
+    }
+}
