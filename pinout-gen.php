@@ -46,6 +46,8 @@
   $pins_number["x"]     = 16;
   $pins_number["y"]     = 16;
 */
+  $precission = 2; // two sign after comma
+
   $canvas_case_ratio = 0.6;
 
   ###########################################
@@ -55,8 +57,8 @@
   $font_pin_number_size  = round(12*125*$canvas_case_ratio/$pins_number["total"]);
   $font_pin_name_size    = 1.7*$font_pin_number_size;
 
-  $font_pin_number_family = "PT Sans";
-  $font_pin_name_family   = "PT Sans";
+  $font_pin_number_family = "PT Sans, Helvetica, sans-serif";
+  $font_pin_name_family   = "PT Sans, Helvetica, sans-serif";
 
   $font_pin_number_weight = "bold";
   $font_pin_name_weight   = "bold";
@@ -77,11 +79,11 @@
   $canvas_x = 1000;
   $canvas_y = 1000;
 
-  $case_x = round($canvas_case_ratio * $canvas_x, 2);
-  $case_y = round($case_x * $pins_number["y"]/$pins_number["x"], 2);
+  $case_x = round($canvas_case_ratio * $canvas_x, $precission);
+  $case_y = round($case_x * $pins_number["y"]/$pins_number["x"], $precission);
 
-  $case_offset_x = round(($canvas_x - $case_x)/2, 2);
-  $case_offset_y = round(($canvas_y - $case_y)/2, 2);
+  $case_offset_x = round(($canvas_x - $case_x)/2, $precission);
+  $case_offset_y = round(($canvas_y - $case_y)/2, $precission);
 
 
 
@@ -92,8 +94,8 @@
 
   //$pin_x = ceil( $case_x/($pins_number["x"]*2+2) );
   //$pin_y = ceil( $pin_x * 2 );
-  $pin_x =  round($case_x/($pins_number["x"]*2+1), 2);
-  $pin_y =  round($pin_x * 2, 2);
+  $pin_x =  round($case_x/($pins_number["x"]*2+1), $precission);
+  $pin_y =  round($pin_x * 2, $precission);
 
 	// To kick off the SVG document, we need to declare the page doctype, here it is.
 
@@ -124,12 +126,12 @@ for ($x=0; $x<$pins_number["x"]; $x++) {
     $pinstd  = $pinout[$pin_index]['standard'];
     $pininfo = $pinout[$pin_index]['description'];
     $pincolor = DecidePinColour($pin_index, $pinname, $pintype, $pinstd, $pininfo);
-    $pin_offset_x  = round($pin_x * ($x*2 + 1) + $case_offset_x, 2);
-    $pin_offset_y  = round($case_offset_y+$case_y +$pin_padding, 2);
-    $text_offset_x = round($pin_offset_x+$pin_x/2, 2);
-    $text_offset_y = round($pin_offset_y+$pin_x/2, 2);
-    $name_offset_x = round($pin_offset_x+$pin_x, 2);
-    $name_offset_y = round($pin_offset_y+$pin_x, 2);
+    $pin_offset_x  = round($pin_x * ($x*2 + 1) + $case_offset_x, $precission);
+    $pin_offset_y  = round($case_offset_y+$case_y +$pin_padding, $precission);
+    $text_offset_x = round($pin_offset_x+$pin_x/2, $precission);
+    $text_offset_y = round($pin_offset_y+$pin_x/2, $precission);
+    $name_offset_x = round($pin_offset_x+$pin_x, $precission);
+    $name_offset_y = round($pin_offset_y+$pin_x, $precission);
     //<text x="$text_offset_x" y="$text_offset_y" font-family="PT Mono" font-size="12" fill="gray" transform="rotate(270 $text_offset_x $text_offset_y)">$pin_index</text>\n
     $svg =  <<< HEREDOC
     <rect x="$pin_offset_x" y="$pin_offset_y" width="$pin_x" height="$pin_y" fill="$pincolor" stroke-width="1" stroke="rgb(0,0,0)"/>
@@ -150,12 +152,12 @@ for ($y=0; $y<$pins_number["y"]; $y++) {
     $pinstd  = $pinout[$pin_index]['standard'];
     $pininfo = $pinout[$pin_index]['description'];
     $pincolor = DecidePinColour($pin_index, $pinname, $pintype, $pinstd, $pininfo);
-    $pin_offset_x  = round($case_offset_x+$case_x +$pin_padding, 2);
-    $pin_offset_y  = round($case_offset_y+$case_y - $pin_x*($y*2 + 2), 2);
-    $text_offset_x = round($pin_offset_x+$pin_x, 2);
-    $text_offset_y = round($pin_offset_y+$xxx, 2);
-    $name_offset_x = round($pin_offset_x+3*$pin_x, 2);
-    $name_offset_y = round($pin_offset_y+$pin_x, 2);
+    $pin_offset_x  = round($case_offset_x+$case_x +$pin_padding, $precission);
+    $pin_offset_y  = round($case_offset_y+$case_y - $pin_x*($y*2 + 2), $precission);
+    $text_offset_x = round($pin_offset_x+$pin_x, $precission);
+    $text_offset_y = round($pin_offset_y+$xxx, $precission);
+    $name_offset_x = round($pin_offset_x+3*$pin_x, $precission);
+    $name_offset_y = round($pin_offset_y+$pin_x, $precission);
     // alignment-baseline="middle"
     $svg =  <<< HEREDOC
     <rect x="$pin_offset_x" y="$pin_offset_y" width="$pin_y" height="$pin_x" fill="$pincolor" stroke-width="1" stroke="rgb(0,0,0)"/>
@@ -174,12 +176,12 @@ for ($x=0; $x<$pins_number["x"]; $x++) {
     $pinstd  = $pinout[$pin_index]['standard'];
     $pininfo = $pinout[$pin_index]['description'];
     $pincolor = DecidePinColour($pin_index, $pinname, $pintype, $pinstd, $pininfo);
-    $pin_offset_x  = round($case_offset_x+$case_x - $pin_x*($x*2 + 2), 2);
-    $pin_offset_y  = round($case_offset_y-$pin_y -$pin_padding, 2);
-    $text_offset_x = round($pin_offset_x+$pin_x/2, 2);
-    $text_offset_y = round($pin_offset_y+$pin_x/2, 2);
-    $name_offset_x = round($pin_offset_x+$pin_x, 2);
-    $name_offset_y = round($pin_offset_y+$pin_x, 2);
+    $pin_offset_x  = round($case_offset_x+$case_x - $pin_x*($x*2 + 2), $precission);
+    $pin_offset_y  = round($case_offset_y-$pin_y -$pin_padding, $precission);
+    $text_offset_x = round($pin_offset_x+$pin_x/2, $precission);
+    $text_offset_y = round($pin_offset_y+$pin_x/2, $precission);
+    $name_offset_x = round($pin_offset_x+$pin_x, $precission);
+    $name_offset_y = round($pin_offset_y+$pin_x, $precission);
     $svg =  <<< HEREDOC
     <rect x="$pin_offset_x" y="$pin_offset_y" width="$pin_x" height="$pin_y" fill="$pincolor" stroke-width="1" stroke="rgb(0,0,0)"/>
     <text x="$pin_offset_x" y="$pin_offset_y" font-family="$font_pin_number_family" font-size="$font_pin_number_size" font-weight="$font_pin_number_weight" fill="$font_pin_number_color"
@@ -199,12 +201,12 @@ for ($y=0; $y<$pins_number["y"]; $y++) {
     $pinstd  = $pinout[$pin_index]['standard'];
     $pininfo = $pinout[$pin_index]['description'];
     $pincolor = DecidePinColour($pin_index, $pinname, $pintype, $pinstd, $pininfo);
-    $pin_offset_x  = round($case_offset_x -$pin_x*2 -$pin_padding, 2);
-    $pin_offset_y  = round($case_offset_y+ $pin_x*($y*2 + 1), 2);
-    $text_offset_x = round($pin_offset_x+$pin_x, 2);
-    $text_offset_y = round($pin_offset_y+$xxx, 2);
-    $name_offset_x = round($pin_offset_x-$pin_x, 2);
-    $name_offset_y = round($pin_offset_y+$pin_x, 2);
+    $pin_offset_x  = round($case_offset_x -$pin_x*2 -$pin_padding, $precission);
+    $pin_offset_y  = round($case_offset_y+ $pin_x*($y*2 + 1), $precission);
+    $text_offset_x = round($pin_offset_x+$pin_x, $precission);
+    $text_offset_y = round($pin_offset_y+$xxx, $precission);
+    $name_offset_x = round($pin_offset_x-$pin_x, $precission);
+    $name_offset_y = round($pin_offset_y+$pin_x, $precission);
     $svg =  <<< HEREDOC
     <rect x="$pin_offset_x" y="$pin_offset_y" width="$pin_y" height="$pin_x" fill="$pincolor" stroke-width="1" stroke="rgb(0,0,0)"/>
     <text x="$text_offset_x" y="$text_offset_y" font-family="$font_pin_number_family" font-size="$font_pin_number_size" font-weight="$font_pin_number_weight" fill="$font_pin_number_color" text-anchor="middle">$pin_index</text>
@@ -228,9 +230,9 @@ HEREDOC;
         $pincolor = $pin_color["VDDO"];
         break;
     case "P":
-        if (preg_match("/VSS/",$pinname) || preg_match("/GND/",$pinname)) { // several name of ground signal
+        if (preg_match("/(GND|VSS)/i",$pinname)) { // several name of ground signal
           $pincolor = $pin_color["GND"];
-        } else if (preg_match("/VDD/",$pinname) || preg_match("/VCC/",$pinname)) { // several name of supply signal
+        } else if (preg_match("/(VDD|VCC)/i",$pinname)) { // several name of supply signal
           $pincolor = $pin_color["VDD"];
         }
         break;
