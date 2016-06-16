@@ -8,14 +8,19 @@ v1.0, 15.06.2016
 :imagesdir: example
 :homepage: http://idoka.ru
 
+This is simple IC-case drawer with proper pin assignment
 
 == Intro
 
-This is simple IC-case drawer with proper pin assignment
-
 Simplifying diagram to explanation tool working:
 
-ASCIIDOC table -> CSV -> JSON (optional) -> SVG
+```
+AsciiDoc  ->  CSV  ->    JSON     ->  SVG  ->    PNG
+ table                (optional)              (optional)
+
+```
+
+
 
 == Dependencies
 
@@ -25,9 +30,9 @@ ASCIIDOC table -> CSV -> JSON (optional) -> SVG
 
 === Optional
 
-* PT Sans font
+* http://www.paratype.com/public/[PT fonts] - that awesome font family include Latin and Cyrillic characters and covers almost all minority languages of the Russian Federation. http://www.paratype.com/uni/public/PTSans.zip[Direct link to download PT Sans] that preffer use to SVG generate
 * ImageMagick (for png generate)
-* Atom with asciidoctor-preview plugin for comfortable creation and live-preview of asciidoc tables
+* https://atom.io/[Atom] with https://atom.io/packages/asciidoc-preview[asciidoc-preview] plugin for comfortable creation and live-preview of asciidoc tables
 
 == Usage
 
@@ -35,7 +40,16 @@ ASCIIDOC table -> CSV -> JSON (optional) -> SVG
 . Prepare table with IC pins definitions
 . Run `make`
 
-The first stage of conversion make json-container of pin description and might be useful for any custom purposes (input format for other tools)
+The first stage of conversion make json-container of pin description and might be useful for any custom purposes (input format for other tools).
+
+In some cases you need to customize function _DecidePinColour()_ in file ``DecidePinColour.php`.
+
+== Example
+
+
+
+
+
 
 == ToDo
 
@@ -72,3 +86,6 @@ The first stage of conversion make json-container of pin description and might b
 * http://apike.ca/prog_svg_text_style.html[Text in SVG (Font, Anchor, Alignment)]
 
 
+== Tag cloud
+
+asciidoc, json, verilog, asic, pinout, hdl, svg, csv, automated publishing
