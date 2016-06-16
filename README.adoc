@@ -46,10 +46,11 @@ In some cases you need to customize function _DecidePinColour()_ in file `Decide
 
 == Example
 
-https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.adoc[AsciiDoc] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.csv[CSV] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.json[JSON] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.svg[SVG] -> example/pinout.png[PNG]
+
+https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.adoc[AsciiDoc table] or https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.adoc[AsciiDoc raw] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.csv[CSV] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.json[JSON] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.svg[SVG] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.png[PNG]
 
 .Example of result of tool works
-image::pinout.svg[width=40%]
+image::example/pinout.svg[width=40%]
 
 
 == ToDo
