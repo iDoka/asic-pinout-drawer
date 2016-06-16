@@ -50,12 +50,13 @@ In some cases you need to customize function _DecidePinColour()_ in file `Decide
 https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.adoc[AsciiDoc table] or https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.adoc[AsciiDoc raw] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.csv[CSV] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.json[JSON] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.svg[SVG] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.png[PNG]
 
 .Example of result of tool works
-image::example/pinout.svg[width=40%]
+image::https://raw.githubusercontent.com/iDoka/asic-pinout-drawer/master/example/pinout.svg[width=40%]
 
 
 == ToDo
 
-* read config from JSON- or ini-file (prefferable)
+* Add legend to output
+* Read config from JSON- or ini-file (prefferable)
 * BGA matrix enclosure supporting
 
 
