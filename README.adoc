@@ -49,12 +49,13 @@ In some cases you need to customize function _DecidePinColour()_ in file `Decide
 
 https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.adoc[AsciiDoc table] or https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.adoc[AsciiDoc raw] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.csv[CSV] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.json[JSON] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.svg[SVG] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.png[PNG]
 
-.Example of result of tool works (SVG)
-image::/example/pinout.svg?raw=true[width=30%]
+// .Example of result of tool works (SVG)
+// image::/example/pinout.svg?raw=true[width=50%]
 
 .Example of result of tool works (PNG)
-image::/example/pinout.png?raw=true[width=30%]
+image::/example/pinout.png?raw=true[]
 
+CAUTION: Unfortunately Github don't support ember svg-image on README page. Do not yet?...
 
 == ToDo
 
