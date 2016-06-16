@@ -23,11 +23,15 @@ all:
 	@php pinout-gen.php $(FILE).json > $(FILE).svg
 	@echo "Drawing done!"
 
-
 png:
 	@convert -background none -antialias -density $(PNG_DENSITY) $(FILE).svg $(FILE).png
+
+example: copy-example, all
+
+copy-example: $(FILE).svg
+	@cp example/$(FILE).adoc .
 
 clean:
 	@rm -rf $(FILE).{csv,json,svg,png}
 
-.PHONY: all example clean $(FILE).adoc
+.PHONY: all example copy-example clean $(FILE).adoc
