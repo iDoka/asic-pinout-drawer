@@ -17,12 +17,25 @@ Simplifying diagram to explanation tool working:
 
 ASCIIDOC table -> CSV -> JSON (optional) -> SVG
 
+== Dependencies
+
+
+* bash tool: grep, sed, make
+* PHP
+
+=== Optional
+
+* PT Sans font
+* ImageMagick (for png generate)
+* Atom with asciidoctor-preview plugin for comfortable creation and live-preview of asciidoc tables
+
 == Usage
 
 . Customize the IC case geometry by
 . Prepare table with IC pins definitions
 . Run `make`
 
+The first stage of conversion make json-container of pin description and might be useful for any custom purposes (input format for other tools)
 
 == ToDo
 
@@ -32,20 +45,30 @@ ASCIIDOC table -> CSV -> JSON (optional) -> SVG
 
 == Useful link that helps me develop that tool
 
+=== ASCIIDOC
+
+* http://www.methods.co.nz/asciidoc/newtables.html[AsciiDoc table syntax]
+* http://mrhaki.blogspot.ru/2014/11/awesome-asciidoctor-styling-columns-and.html[Advanced Syntax for Asciidoctor: Styling Cells in Tables]
+
+=== sed
+
+* http://ant0.ru/sed1line.html[one-line sed scripts (RU)]
+
 === PHP
 
 * http://php.net/manual/ru/function.preg-match.php[Function preg_match]
+* http://php.net/manual/ru/function.fgetcsv.php[Function fgetcsv]
 * http://php.net/manual/ru/function.json-encode.php[Function json_encode]
 * http://php.net/manual/ru/function.json-decode.php[Function json-decode]
-* http://www.php.su/articles/?cat=vars&page=014[Arrays by example (RUS)]
+* http://stackoverflow.com/questions/9612166/how-do-i-pass-parameters-into-a-php-script-through-a-webpage[How do I pass parameters into a PHP script?]
+* http://www.php.su/articles/?cat=vars&page=014[Arrays by example (RU)]
 
 === SVG
 
+* http://serganbus.github.io/d3tutorials/svg_primer.html[SVG basic usage by Examples (RU)]
 * https://www.w3.org/TR/SVG/text.html[Chapter "Text" of SVG W3C Recommendation 16 August 2011 (Second Edition)]
 * https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform[The SVG transform attribute]
 * https://developer.mozilla.org/ru/docs/Web/SVG/Attribute/text-anchor[The SVG text-anchor attribute]
 * http://apike.ca/prog_svg_text_style.html[Text in SVG (Font, Anchor, Alignment)]
 
-=== sed
 
-* http://ant0.ru/sed1line.html[one-line sed scripts (RU)]
