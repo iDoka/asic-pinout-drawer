@@ -38,7 +38,7 @@
               echo $data[$c]."\n";
           } */
           $pin_number = intval($data[0]); // not yet applicable for BGA pins which numbers contain alphabetical symbols
-          //$pinout['number'][$data[0]] = ; // reserved fot BGA matrix supporting in future
+          //$pinout['number'][$data[0]] = ; // reserved for BGA matrix supporting in future
           $pinout[$pin_number]['name']        = strtoupper($data[1]);
           $pinout[$pin_number]['type']        = strtoupper($data[2]);
           $pinout[$pin_number]['standard']    = $data[3];
