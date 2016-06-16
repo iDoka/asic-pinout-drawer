@@ -12,11 +12,11 @@ This is simple IC-case drawer with proper pin assignment
 
 == Intro
 
-Simplifying diagram to explanation tool working:
+Simplifying diagram to explanation tool works:
 
 ```
-AsciiDoc  ->  CSV  ->    JSON     ->  SVG  ->    PNG
- table                (optional)              (optional)
+AsciiDoc    -->    CSV    -->      JSON       -->    SVG    -->      PNG
+ table                          (optional)                        (optional)
 
 ```
 
@@ -42,18 +42,19 @@ AsciiDoc  ->  CSV  ->    JSON     ->  SVG  ->    PNG
 
 The first stage of conversion make json-container of pin description and might be useful for any custom purposes (input format for other tools).
 
-In some cases you need to customize function _DecidePinColour()_ in file ``DecidePinColour.php`.
+In some cases you need to customize function _DecidePinColour()_ in file `DecidePinColour.php`.
 
 == Example
 
+https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.adoc[AsciiDoc] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.csv[CSV] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.json[JSON] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.svg[SVG] -> example/pinout.png[PNG]
 
-
-
+.Example of result of tool works
+image::pinout.svg[width=40%]
 
 
 == ToDo
 
-* read config from JSON-file
+* read config from JSON- or ini-file (prefferable)
 * BGA matrix enclosure supporting
 
 
