@@ -1,0 +1,51 @@
+= ASIC Pinout Drawer
+Dmitry Murzinov <kakstattakim@gmail.com>
+v1.0, 15.06.2016
+:lang: en
+:stem:
+:grid: all
+:align: center
+:imagesdir: example
+:homepage: http://idoka.ru
+
+
+== Intro
+
+This is simple IC-case drawer with proper pin assignment
+
+Simplifying diagram to explanation tool working:
+
+ASCIIDOC table -> CSV -> JSON (optional) -> SVG
+
+== Usage
+
+. Customize the IC case geometry by
+. Prepare table with IC pins definitions
+. Run `make`
+
+
+== ToDo
+
+* read config from JSON-file
+* BGA matrix enclosure supporting
+
+
+== Useful link that helps me develop that tool
+
+=== PHP
+
+* http://php.net/manual/ru/function.preg-match.php[Function preg_match]
+* http://php.net/manual/ru/function.json-encode.php[Function json_encode]
+* http://php.net/manual/ru/function.json-decode.php[Function json-decode]
+* http://www.php.su/articles/?cat=vars&page=014[Arrays by example (RUS)]
+
+=== SVG
+
+* https://www.w3.org/TR/SVG/text.html[Chapter "Text" of SVG W3C Recommendation 16 August 2011 (Second Edition)]
+* https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform[The SVG transform attribute]
+* https://developer.mozilla.org/ru/docs/Web/SVG/Attribute/text-anchor[The SVG text-anchor attribute]
+* http://apike.ca/prog_svg_text_style.html[Text in SVG (Font, Anchor, Alignment)]
+
+=== sed
+
+* http://ant0.ru/sed1line.html[one-line sed scripts (RU)]

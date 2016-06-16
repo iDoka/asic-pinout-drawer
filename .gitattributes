@@ -1,0 +1,49 @@
+# Handle line endings automatically for files detected as text and leave all files detected as binary untouched
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# The above will handle all files NOT found below
+# These files are text and should be normalized (Convert crlf => lf)
+.gitattributes text eol=lf
+.gitignore     text eol=lf
+
+############# 
+Makefile text eol=lf
+*.c  text eol=lf
+*.h  text eol=lf
+*.sh text eol=lf
+*.pl text eol=lf
+*.py text eol=lf
+*.php text eol=lf
+*.tcl text eol=lf
+
+# Documents
+*.md text
+*.adoc text
+*.textile  text
+*.asciidoc text
+*.docbook  text
+*.csv text
+*.txt text
+
+# Graphics
+*.png  binary diff=exif
+*.jpg  binary diff=exif
+*.jpeg binary diff=exif
+*.gif  binary
+*.ico  binary
+*.svg  text
+
+# meta
+*.xml  text
+*.json text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.gz  binary
+*.bz2 binary
+*.tar binary
+*.zip binary
+*.rar binary
+*.7z  binary
+*.ttf binary

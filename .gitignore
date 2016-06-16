@@ -1,33 +1,13 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# ignore temporary files:
+*~
 
-# Precompiled Headers
-*.gch
-*.pch
+# ignore build dir:
+build/
+# Mac OS X file to store custom attributes of a folder
+.DS_Store
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# ignore example output
+xeample/*.zzz
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
+# joe files:
+DEADJOE
