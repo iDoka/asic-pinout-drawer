@@ -12,6 +12,8 @@
 #######################################################################################
 
 FILE=pinout
+PNG_SCALE=2
+PNG_DENSITY=$(shell echo 72*$(PNG_SCALE) | bc)
 
 all:
 	@grep -v "====" $(FILE).adoc | grep -e "^|" | sed 's/^|//' | sed 's/[ ]*|[ ]*/|/g' > $(FILE).csv
@@ -21,7 +23,11 @@ all:
 	@php pinout-gen.php $(FILE).json > $(FILE).svg
 	@echo "Drawing done!"
 
-png:
-	@convert -background none -antialias $(FILE).svg $(FILE).png
 
-.PHONY: all example $(FILE).adoc
+png:
+	@convert -background none -antialias -density $(PNG_DENSITY) $(FILE).svg $(FILE).png
+
+clean:
+	@rm -rf $(FILE).{csv,json,svg,png}
+
+.PHONY: all example clean $(FILE).adoc
