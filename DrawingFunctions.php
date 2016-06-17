@@ -81,4 +81,24 @@ function DrawingPinName($pin_attribute) {
   echo "<text x=\"$x\" y=\"$y\" font-family=\"$font\" font-size=\"$size\" font-weight=\"$weight\" fill=\"$color\" text-anchor=\"$anchor\" $transform>".$pin_attribute["name"]."</text>".PHP_EOL;
 }
 
+###########################################################
+function DrawingPartnumber() {
+
+  GLOBAL $font_partnumber_family, $font_partnumber_size, $font_partnumber_weight, $font_partnumber_color;
+  GLOBAL $partnumber, $case_x, $case_y, $case_offset_x, $case_offset_y;
+
+  if (strlen($partnumber) == 0) {
+    return;
+  }
+
+  $x = $case_offset_x + $case_x/2;
+  $y = $case_offset_y + $case_y/2 + $font_partnumber_size/4;
+  $font   = $font_partnumber_family;
+  $size   = $font_partnumber_size;
+  $weight = $font_partnumber_weight;
+  $color  = $font_partnumber_color;
+
+  echo "<text x=\"$x\" y=\"$y\" font-family=\"$font\" font-size=\"$size\" font-weight=\"$weight\" fill=\"$color\" text-anchor=\"middle\" alignment-baseline=\"middle\">$partnumber</text>".PHP_EOL;
+}
+
 ?>

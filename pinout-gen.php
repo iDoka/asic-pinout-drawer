@@ -51,20 +51,29 @@
   $pins_number["x"]     = 16;
   $pins_number["y"]     = 16;
 */
+
+  $partnumber = "DokaChip";
+  // uncomment this for you dont wish to draw partnumber:
+  //$partnumber = "";
+
   $precission = 2; // two sign after comma
 
   $canvas_case_ratio = 0.6;
 
   ###########################################
+  $font_partnumber_color = "black";
   $font_pin_number_color = "white";
   $font_pin_name_color   = "black";
 
+  $font_partnumber_size  = round(7*12*125*$canvas_case_ratio/$pins_number["total"]);
   $font_pin_number_size  = round(12*125*$canvas_case_ratio/$pins_number["total"]);
   $font_pin_name_size    = 1.7*$font_pin_number_size;
 
+  $font_partnumber_family = "PT Serif, Helvetica, Tahoma, sans-serif";
   $font_pin_number_family = "PT Sans, Helvetica, Tahoma, sans-serif";
   $font_pin_name_family   = "PT Sans, Helvetica, sans-serif";
 
+  $font_partnumber_weight = "normal";
   $font_pin_number_weight = "bold";
   $font_pin_name_weight   = "bold";
 
@@ -111,6 +120,9 @@
 <circle cx="$case_dot_x" cy="$case_dot_y" r="$case_dot_radius" fill="rgba(0, 0, 0)"/>\n
 HEREDOC;
     echo $svg;
+
+
+DrawingPartnumber();
 
 
 ###########################################################################################################

@@ -61,7 +61,7 @@ CAUTION: Unfortunately Github don't support ember svg-image on README page. Do n
 
 == ToDo
 
-* Place the Partnumber on the top of chip
+* [line-through]#Place the Partnumber on the top of chip#
 * Add legend to output
 * Read config from JSON- or ini-file (prefferable)
 * BGA matrix enclosure supporting
