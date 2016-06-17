@@ -46,8 +46,9 @@ In some cases you need to customize function _DecidePinColour()_ in file `Decide
 
 == Example
 
+Click by link below for reveal step-by-step example of conversion from source doc to finish drawing:
 
-https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.adoc[AsciiDoc table] or https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.adoc[AsciiDoc raw] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.csv[CSV] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.json[JSON] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.svg[SVG] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.png[PNG]
+https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.adoc[*AsciiDoc table*] or https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.adoc[AsciiDoc raw] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.csv[CSV] -> https://github.com/iDoka/asic-pinout-drawer/raw/master/example/pinout.json[JSON] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.svg[*SVG*] -> https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.png[PNG]
 
 // .Example of result of tool works (SVG)
 // image::/example/pinout.svg?raw=true[width=50%]
@@ -61,14 +62,15 @@ CAUTION: Unfortunately Github don't support ember svg-image on README page. Do n
 
 == ToDo
 
-* [line-through]#Place the Partnumber on the top of chip#
-* Add legend to output
-* Read config from JSON- or ini-file (prefferable)
-* BGA matrix enclosure supporting:
-** basic functionality for drawer
-** supporting list of absent pins
-** geometry pin-coding in additional to color coding (see the Xilinx FPGA pinout Documentation as Reference)
-
+[options="readonly"]
+* [x] Place the Partnumber on the top of chip
+* [ ] Add legend to output
+* [ ] Read config from JSON- or ini-file (prefferable)
+* [ ] BGA matrix enclosure supporting:
+** [ ] basic functionality for drawer
+** [ ] supporting list of absent pins
+** [ ] geometry pin-coding in additional to color coding (see the Xilinx FPGA pinout Documentation as Reference)
+* [ ] Obvious idea for PHP-based tools: make this tool available as SAAS (online drawer)
 
 == Useful link that helps me develop that tool
 
