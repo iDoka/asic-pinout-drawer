@@ -112,22 +112,31 @@
   $pin_y =  round($pin_x * 2, $precission);
 
   // this parameter for manual adjasting (set this for non-overlapping with pin-name on bottom side):
-  $legend_offset = 6*$pin_y;
+  $legend_offset_x = -5*$pin_y;
+  $legend_offset_y =  5*$pin_y;
 
 
 	// To kick off the SVG document, we need to declare the page doctype, here it is.
 
 	$svg =  <<< HEREDOC
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="$canvas_x" height="$canvas_y">
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!--++++++++++++++++++++++++++[[[ Created by  https://github.com/iDoka/asic-pinout-drawer ]]]++++++++++++++++++++++++++++-->
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 <!-- debug: filling white to background <rect x="0" y="0" width="$canvas_x" height="$canvas_y" fill="rgb(255,255,255)"/>-->
+<!--++++++++++++++++ Body of IC ++++++++++++++++-->
 <rect x="$case_offset_x" y="$case_offset_y" width="$case_x" height="$case_y" fill="rgb(234,234,234)" stroke-width="3" stroke="rgb(0,0,0)"/>
+<!--++++++++++++++++ Marking first pin ++++++++++++++++-->
 <circle cx="$case_dot_x" cy="$case_dot_y" r="$case_dot_radius" fill="rgba(0, 0, 0)"/>\n
 HEREDOC;
     echo $svg;
 
 
 DrawingPartnumber();
+
+// comment it, if legend is not necessary:
 DrawingLegend();
+
 
 ###########################################################################################################
 
@@ -141,7 +150,7 @@ $xxx2 = $pin_x*2;
 
 ###########################################################################################################
 #### BOTTOM SIDE
-echo "  <!--################ BOTTOM SIDE ################-->".PHP_EOL;
+echo "<!--++++++++++++++++ BOTTOM SIDE ++++++++++++++++-->".PHP_EOL;
 $pin_attribute["side"] = "BOTTOM";
 for ($x=0; $x<$pins_number["x"]; $x++) {
     $pin_attribute["index"]++;
@@ -162,7 +171,7 @@ for ($x=0; $x<$pins_number["x"]; $x++) {
 }
 
 #### RIGHT SIDE
-echo "<!--################ RIGHT SIDE ################-->".PHP_EOL;
+echo "<!--++++++++++++++++ RIGHT SIDE ++++++++++++++++-->".PHP_EOL;
 $pin_attribute["side"] = "RIGHT";
 for ($y=0; $y<$pins_number["y"]; $y++) {
     $pin_attribute["index"]++;
@@ -184,7 +193,7 @@ for ($y=0; $y<$pins_number["y"]; $y++) {
 }
 
 #### TOP SIDE
-echo "<!--################ TOP SIDE ################-->".PHP_EOL;
+echo "<!--++++++++++++++++ TOP SIDE ++++++++++++++++-->".PHP_EOL;
 $pin_attribute["side"] = "TOP";
 for ($x=0; $x<$pins_number["x"]; $x++) {
     $pin_attribute["index"]++;
@@ -205,7 +214,7 @@ for ($x=0; $x<$pins_number["x"]; $x++) {
 }
 
 #### LEFT SIDE
-echo "<!--################ LEFT SIDE ################-->".PHP_EOL;
+echo "<!--++++++++++++++++ LEFT SIDE ++++++++++++++++-->".PHP_EOL;
 $pin_attribute["side"] = "LEFT";
 for ($y=0; $y<$pins_number["y"]; $y++) {
     $pin_attribute["index"]++;

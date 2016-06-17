@@ -100,7 +100,7 @@ function DrawingPartnumber() {
   $size   = $font_partnumber_size;
   $weight = $font_partnumber_weight;
   $color  = $font_partnumber_color;
-
+  echo "<!--++++++++++++++++ PartNumber ++++++++++++++++-->".PHP_EOL;
   echo "<text x=\"$x\" y=\"$y\" font-family=\"$font\" font-size=\"$size\" font-weight=\"$weight\" fill=\"$color\" text-anchor=\"middle\" alignment-baseline=\"middle\">$partnumber</text>".PHP_EOL;
 }
 
@@ -108,7 +108,7 @@ function DrawingPartnumber() {
 ###########################################################
 function DrawingLegend() {
 
-  GLOBAL $pin_color, $legend_offset;
+  GLOBAL $pin_color, $legend_offset_x, $legend_offset_y;
   GLOBAL $case_x, $case_y, $case_offset_x, $case_offset_y, $pin_x, $pin_y;
   GLOBAL $font_pin_name_family, $font_pin_name_size, $font_pin_name_weight, $font_pin_name_color;
 
@@ -122,9 +122,11 @@ function DrawingLegend() {
 
   $incr_y = 0;
 
+  echo "<!--++++++++++++++++ Legend ++++++++++++++++-->".PHP_EOL;
+
   foreach ($pin_color as $legend => $color_for_pin){
-    $x = $case_offset_x - 5*$pin_y;
-    $y = $case_offset_y + $case_y + $legend_offset + 1*$pin_y*$incr_y;
+    $x = $case_offset_x           + $legend_offset_x;
+    $y = $case_offset_y + $case_y + $legend_offset_y + 1*$pin_y*$incr_y;
     echo "<rect x=\"$x\" y=\"$y\" width=\"$width\" height=\"$height\" fill=\"$color_for_pin\" stroke-width=\"0\"/>".PHP_EOL;
     $x = $x + $pin_y + $pin_x;
     $y = $y + $pin_x;
