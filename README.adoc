@@ -36,7 +36,7 @@ AsciiDoc    -->    CSV    -->      JSON       -->    SVG    -->      PNG
 
 == Usage
 
-. Customize the IC case geometry by
+. Customize the IC case geometry by defining proper parameters ()
 . Prepare table with IC pins definitions
 . Run `make`
 
@@ -65,8 +65,9 @@ CAUTION: Unfortunately Github don't support ember svg-image on README page. Do n
 [options="readonly"]
 * [x] Place the Partnumber on the top of chip
 * [x] Add legend to output
+* [ ] Add local link to every pin name for easy navigate into final doc
 * [ ] Read config from JSON- or ini-file (prefferable)
-* [ ] BGA matrix enclosure supporting:
+* [ ] Case with BGA-matrix supporting:
 ** [ ] basic functionality for drawer
 ** [ ] supporting list of absent pins
 ** [ ] geometry pin-coding in additional to color coding (see the Xilinx FPGA pinout Documentation as Reference)
