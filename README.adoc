@@ -28,7 +28,7 @@ AsciiDoc    -->    CSV    -->      JSON       -->    SVG    -->      PNG
 * bash tool: grep, sed, make
 * PHP
 
-=== Optional
+==== Optional
 
 * http://www.paratype.com/public/[PT fonts] - that awesome font family include Latin and Cyrillic characters and covers almost all minority languages of the Russian Federation. http://www.paratype.com/uni/public/PTSans.zip[Direct link to download PT Sans] that preffer use to SVG generate
 * ImageMagick (for png generate)
@@ -54,6 +54,8 @@ https://github.com/iDoka/asic-pinout-drawer/blob/master/example/pinout.adoc[Asci
 
 .Example of result of tool works (PNG)
 image::/example/pinout.png?raw=true[]
+
+
 
 CAUTION: Unfortunately Github don't support ember svg-image on README page. Do not yet?...
 
