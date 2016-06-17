@@ -127,7 +127,7 @@
 <!--++++++++++++++++ Body of IC ++++++++++++++++-->
 <rect x="$case_offset_x" y="$case_offset_y" width="$case_x" height="$case_y" fill="rgb(234,234,234)" stroke-width="3" stroke="rgb(0,0,0)"/>
 <!--++++++++++++++++ Marking first pin ++++++++++++++++-->
-<circle cx="$case_dot_x" cy="$case_dot_y" r="$case_dot_radius" fill="rgba(0, 0, 0)"/>\n
+<circle cx="$case_dot_x" cy="$case_dot_y" r="$case_dot_radius" fill="rgb(0, 0, 0)"/>\n
 HEREDOC;
     echo $svg;
 
