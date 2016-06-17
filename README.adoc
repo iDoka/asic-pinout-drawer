@@ -58,7 +58,7 @@ image::/example/pinout.png?raw=true[]
 
 
 
-CAUTION: Unfortunately Github don't support ember svg-image on README page. Do not yet?...
+CAUTION: Unfortunately Github don't support embed svg-image on README page. Do not yet?...
 
 == ToDo
 
@@ -71,7 +71,7 @@ CAUTION: Unfortunately Github don't support ember svg-image on README page. Do n
 ** [ ] basic functionality for drawer
 ** [ ] supporting list of absent pins
 ** [ ] geometry pin-coding in additional to color coding (see the Xilinx FPGA pinout Documentation as Reference)
-* [ ] Obvious idea for PHP-based tools: make this tool available as SAAS (online drawer)
+* [ ] Obvious idea for PHP-based tools: make this tool available as SaaS (online drawer)
 
 == Useful link that helps me develop that tool
 
