@@ -64,7 +64,10 @@ CAUTION: Unfortunately Github don't support ember svg-image on README page. Do n
 * [line-through]#Place the Partnumber on the top of chip#
 * Add legend to output
 * Read config from JSON- or ini-file (prefferable)
-* BGA matrix enclosure supporting
+* BGA matrix enclosure supporting:
+** basic functionality for drawer
+** supporting list of absent pins
+** geometry pin-coding in additional to color coding (see the Xilinx FPGA pinout Documentation as Reference)
 
 
 == Useful link that helps me develop that tool
