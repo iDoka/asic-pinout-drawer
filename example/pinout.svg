@@ -1,309 +1,331 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="1000">
-<!-- debug: filling white to background <rect x="0" y="0" width="1000" height="1000" fill="rgb(255,255,255)"/>-->
-<rect x="200" y="300" width="600" height="400" fill="rgb(234,234,234)" stroke-width="3" stroke="rgb(0,0,0)"/>
-<circle cx="220" cy="680" r="8" fill="rgba(0, 0, 0)"/>
-  <!--################ BOTTOM SIDE ################-->
-<rect x="209.84" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="209.84" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 214.76 705.92)">1</text>
-<text x="219.68" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 219.68 710.84)">BOOT1</text>
-<rect x="229.52" y="701" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="229.52" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 234.44 705.92)">2</text>
-<text x="239.36" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 239.36 710.84)">VSS</text>
-<rect x="249.2" y="701" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="249.2" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 254.12 705.92)">3</text>
-<text x="259.04" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 259.04 710.84)">VSS</text>
-<rect x="268.88" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="268.88" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 273.8 705.92)">4</text>
-<text x="278.72" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 278.72 710.84)">SPI1_SCLK</text>
-<rect x="288.56" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="288.56" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 293.48 705.92)">5</text>
-<text x="298.4" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 298.4 710.84)">SPI1_MOSI</text>
-<rect x="308.24" y="701" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="308.24" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 313.16 705.92)">6</text>
-<text x="318.08" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 318.08 710.84)">VDD_33</text>
-<rect x="327.92" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="327.92" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 332.84 705.92)">7</text>
-<text x="337.76" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 337.76 710.84)">SPI1_MISO</text>
-<rect x="347.6" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="347.6" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 352.52 705.92)">8</text>
-<text x="357.44" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 357.44 710.84)">SPI1_SS</text>
-<rect x="367.28" y="701" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="367.28" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 372.2 705.92)">9</text>
-<text x="377.12" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 377.12 710.84)">VDD</text>
-<rect x="386.96" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="386.96" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 391.88 705.92)">10</text>
-<text x="396.8" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 396.8 710.84)">MDC</text>
-<rect x="406.64" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="406.64" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 411.56 705.92)">11</text>
-<text x="416.48" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 416.48 710.84)">MDIO</text>
-<rect x="426.32" y="701" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="426.32" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 431.24 705.92)">12</text>
-<text x="436.16" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 436.16 710.84)">VDD_18</text>
-<rect x="446" y="701" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="446" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 450.92 705.92)">13</text>
-<text x="455.84" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 455.84 710.84)">ALOS</text>
-<rect x="465.68" y="701" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="465.68" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 470.6 705.92)">14</text>
-<text x="475.52" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 475.52 710.84)">VSS</text>
-<rect x="485.36" y="701" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="485.36" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 490.28 705.92)">15</text>
-<text x="495.2" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 495.2 710.84)">VDD1P8</text>
-<rect x="505.04" y="701" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="505.04" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 509.96 705.92)">16</text>
-<text x="514.88" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 514.88 710.84)">VSS</text>
-<rect x="524.72" y="701" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="524.72" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 529.64 705.92)">17</text>
-<text x="534.56" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 534.56 710.84)">TXD_P</text>
-<rect x="544.4" y="701" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="544.4" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 549.32 705.92)">18</text>
-<text x="554.24" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 554.24 710.84)">TXD_N</text>
-<rect x="564.08" y="701" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="564.08" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 569 705.92)">19</text>
-<text x="573.92" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 573.92 710.84)">VDD</text>
-<rect x="583.76" y="701" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="583.76" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 588.68 705.92)">20</text>
-<text x="593.6" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 593.6 710.84)">TCLK_P</text>
-<rect x="603.44" y="701" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="603.44" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 608.36 705.92)">21</text>
-<text x="613.28" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 613.28 710.84)">TCLK_N</text>
-<rect x="623.12" y="701" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="623.12" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 628.04 705.92)">22</text>
-<text x="632.96" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 632.96 710.84)">VDD1P8</text>
-<rect x="642.8" y="701" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="642.8" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 647.72 705.92)">23</text>
-<text x="652.64" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 652.64 710.84)">RXD_P</text>
-<rect x="662.48" y="701" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="662.48" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 667.4 705.92)">24</text>
-<text x="672.32" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 672.32 710.84)">RXD_N</text>
-<rect x="682.16" y="701" width="9.84" height="19.68" fill="rgb(0,255,0)" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="682.16" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 687.08 705.92)">25</text>
-<text x="692" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 692 710.84)">VTT</text>
-<rect x="701.84" y="701" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="701.84" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 706.76 705.92)">26</text>
-<text x="711.68" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 711.68 710.84)">VSS</text>
-<rect x="721.52" y="701" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="721.52" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 726.44 705.92)">27</text>
-<text x="731.36" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 731.36 710.84)">VSS</text>
-<rect x="741.2" y="701" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="741.2" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 746.12 705.92)">28</text>
-<text x="751.04" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 751.04 710.84)">VSS</text>
-<rect x="760.88" y="701" width="9.84" height="19.68" fill="magenta" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="760.88" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 765.8 705.92)">29</text>
-<text x="770.72" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 770.72 710.84)">VDDO_VCO</text>
-<rect x="780.56" y="701" width="9.84" height="19.68" fill="magenta" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="780.56" y="701" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 785.48 705.92)">30</text>
-<text x="790.4" y="710.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 790.4 710.84)">VDDO_PLL</text>
-<!--################ RIGHT SIDE ################-->
-<rect x="801" y="680.32" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="688.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >31</text>
-<text x="830.52" y="690.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD</text>
-<rect x="801" y="660.64" width="19.68" height="9.84" fill="rgb(0,255,0)" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="668.64" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >32</text>
-<text x="830.52" y="670.48" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >R_EXT</text>
-<rect x="801" y="640.96" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="648.96" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >33</text>
-<text x="830.52" y="650.8" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD1P8</text>
-<rect x="801" y="621.28" width="19.68" height="9.84" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="629.28" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >34</text>
-<text x="830.52" y="631.12" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RCLK_N</text>
-<rect x="801" y="601.6" width="19.68" height="9.84" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="609.6" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >35</text>
-<text x="830.52" y="611.44" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RCLK_P</text>
-<rect x="801" y="581.92" width="19.68" height="9.84" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="589.92" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >36</text>
-<text x="830.52" y="591.76" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VSS</text>
-<rect x="801" y="562.24" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="570.24" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >37</text>
-<text x="830.52" y="572.08" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD_18</text>
-<rect x="801" y="542.56" width="19.68" height="9.84" fill="pink" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="550.56" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >38</text>
-<text x="830.52" y="552.4" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >XIN</text>
-<rect x="801" y="522.88" width="19.68" height="9.84" fill="pink" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="530.88" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >39</text>
-<text x="830.52" y="532.72" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >XOUT</text>
-<rect x="801" y="503.2" width="19.68" height="9.84" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="511.2" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >40</text>
-<text x="830.52" y="513.04" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VSS</text>
-<rect x="801" y="483.52" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="491.52" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >41</text>
-<text x="830.52" y="493.36" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RST_OUT</text>
-<rect x="801" y="463.84" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="471.84" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >42</text>
-<text x="830.52" y="473.68" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RESET</text>
-<rect x="801" y="444.16" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="452.16" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >43</text>
-<text x="830.52" y="454" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD_18</text>
-<rect x="801" y="424.48" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="432.48" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >44</text>
-<text x="830.52" y="434.32" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TDO</text>
-<rect x="801" y="404.8" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="412.8" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >45</text>
-<text x="830.52" y="414.64" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD</text>
-<rect x="801" y="385.12" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="393.12" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >46</text>
-<text x="830.52" y="394.96" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TRST</text>
-<rect x="801" y="365.44" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="373.44" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >47</text>
-<text x="830.52" y="375.28" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TCK</text>
-<rect x="801" y="345.76" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="353.76" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >48</text>
-<text x="830.52" y="355.6" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TMS</text>
-<rect x="801" y="326.08" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="334.08" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >49</text>
-<text x="830.52" y="335.92" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD_33</text>
-<rect x="801" y="306.4" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="810.84" y="314.4" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >50</text>
-<text x="830.52" y="316.24" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TDI</text>
-<!--################ TOP SIDE ################-->
-<rect x="780.32" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="780.32" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 785.24 284.24)">51</text>
-<text x="790.16" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 790.16 289.16)">TM</text>
-<rect x="760.64" y="279.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="760.64" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 765.56 284.24)">52</text>
-<text x="770.48" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 770.48 289.16)">VSS</text>
-<rect x="740.96" y="279.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="740.96" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 745.88 284.24)">53</text>
-<text x="750.8" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 750.8 289.16)">VSS</text>
-<rect x="721.28" y="279.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="721.28" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 726.2 284.24)">54</text>
-<text x="731.12" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 731.12 289.16)">VDD_33</text>
-<rect x="701.6" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="701.6" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 706.52 284.24)">55</text>
-<text x="711.44" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 711.44 289.16)">GPIO0</text>
-<rect x="681.92" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="681.92" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 686.84 284.24)">56</text>
-<text x="691.76" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 691.76 289.16)">GPIO1</text>
-<rect x="662.24" y="279.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="662.24" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 667.16 284.24)">57</text>
-<text x="672.08" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 672.08 289.16)">VDD</text>
-<rect x="642.56" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="642.56" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 647.48 284.24)">58</text>
-<text x="652.4" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 652.4 289.16)">GPIO2</text>
-<rect x="622.88" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="622.88" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 627.8 284.24)">59</text>
-<text x="632.72" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 632.72 289.16)">GPIO3</text>
-<rect x="603.2" y="279.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="603.2" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 608.12 284.24)">60</text>
-<text x="613.04" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 613.04 289.16)">VDD_18</text>
-<rect x="583.52" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="583.52" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 588.44 284.24)">61</text>
-<text x="593.36" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 593.36 289.16)">GPT0</text>
-<rect x="563.84" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="563.84" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 568.76 284.24)">62</text>
-<text x="573.68" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 573.68 289.16)">GPT1</text>
-<rect x="544.16" y="279.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="544.16" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 549.08 284.24)">63</text>
-<text x="554" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 554 289.16)">VSS</text>
-<rect x="524.48" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="524.48" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 529.4 284.24)">64</text>
-<text x="534.32" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 534.32 289.16)">GPT2</text>
-<rect x="504.8" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="504.8" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 509.72 284.24)">65</text>
-<text x="514.64" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 514.64 289.16)">GPT3</text>
-<rect x="485.12" y="279.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="485.12" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 490.04 284.24)">66</text>
-<text x="494.96" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 494.96 289.16)">VDD</text>
-<rect x="465.44" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="465.44" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 470.36 284.24)">67</text>
-<text x="475.28" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 475.28 289.16)">TDM_RVIT</text>
-<rect x="445.76" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="445.76" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 450.68 284.24)">68</text>
-<text x="455.6" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 455.6 289.16)">TDM_RSYNC</text>
-<rect x="426.08" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="426.08" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 431 284.24)">69</text>
-<text x="435.92" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 435.92 289.16)">TDM_RCLK</text>
-<rect x="406.4" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="406.4" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 411.32 284.24)">70</text>
-<text x="416.24" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 416.24 289.16)">TDM_WVIT</text>
-<rect x="386.72" y="279.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="386.72" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 391.64 284.24)">71</text>
-<text x="396.56" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 396.56 289.16)">VDD_33</text>
-<rect x="367.04" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="367.04" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 371.96 284.24)">72</text>
-<text x="376.88" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 376.88 289.16)">TDM_WSYNC</text>
-<rect x="347.36" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="347.36" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 352.28 284.24)">73</text>
-<text x="357.2" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 357.2 289.16)">TDM_WCLK</text>
-<rect x="327.68" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="327.68" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 332.6 284.24)">74</text>
-<text x="337.52" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 337.52 289.16)">I2C_SCL</text>
-<rect x="308" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="308" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 312.92 284.24)">75</text>
-<text x="317.84" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 317.84 289.16)">I2C_SDA</text>
-<rect x="288.32" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="288.32" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 293.24 284.24)">76</text>
-<text x="298.16" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 298.16 289.16)">UART0_DTR</text>
-<rect x="268.64" y="279.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="268.64" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 273.56 284.24)">77</text>
-<text x="278.48" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 278.48 289.16)">VSS</text>
-<rect x="248.96" y="279.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="248.96" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 253.88 284.24)">78</text>
-<text x="258.8" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 258.8 289.16)">VSS</text>
-<rect x="229.28" y="279.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="229.28" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 234.2 284.24)">79</text>
-<text x="239.12" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 239.12 289.16)">VDD</text>
-<rect x="209.6" y="279.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="209.6" y="279.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 214.52 284.24)">80</text>
-<text x="219.44" y="289.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 219.44 289.16)">UART0_DSR</text>
-<!--################ LEFT SIDE ################-->
-<rect x="179.32" y="309.84" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="317.84" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >81</text>
-<text x="169.48" y="319.68" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_RTS</text>
-<rect x="179.32" y="329.52" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="337.52" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >82</text>
-<text x="169.48" y="339.36" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD_33</text>
-<rect x="179.32" y="349.2" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="357.2" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >83</text>
-<text x="169.48" y="359.04" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_CTS</text>
-<rect x="179.32" y="368.88" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="376.88" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >84</text>
-<text x="169.48" y="378.72" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_TXD</text>
-<rect x="179.32" y="388.56" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="396.56" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >85</text>
-<text x="169.48" y="398.4" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_RXD</text>
-<rect x="179.32" y="408.24" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="416.24" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >86</text>
-<text x="169.48" y="418.08" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD_18</text>
-<rect x="179.32" y="427.92" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="435.92" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >87</text>
-<text x="169.48" y="437.76" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_SCLK</text>
-<rect x="179.32" y="447.6" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="455.6" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >88</text>
-<text x="169.48" y="457.44" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_MOSI</text>
-<rect x="179.32" y="467.28" width="19.68" height="9.84" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="475.28" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >89</text>
-<text x="169.48" y="477.12" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VSS</text>
-<rect x="179.32" y="486.96" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="494.96" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >90</text>
-<text x="169.48" y="496.8" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_MISO</text>
-<rect x="179.32" y="506.64" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="514.64" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >91</text>
-<text x="169.48" y="516.48" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_SS</text>
-<rect x="179.32" y="526.32" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="534.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >92</text>
-<text x="169.48" y="536.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD</text>
-<rect x="179.32" y="546" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="554" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >93</text>
-<text x="169.48" y="555.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART3_TXD</text>
-<rect x="179.32" y="565.68" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="573.68" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >94</text>
-<text x="169.48" y="575.52" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART3_RXD</text>
-<rect x="179.32" y="585.36" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="593.36" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >95</text>
-<text x="169.48" y="595.2" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD_33</text>
-<rect x="179.32" y="605.04" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="613.04" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >96</text>
-<text x="169.48" y="614.88" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART2_TXD</text>
-<rect x="179.32" y="624.72" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="632.72" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >97</text>
-<text x="169.48" y="634.56" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART2_RXD</text>
-<rect x="179.32" y="644.4" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="652.4" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >98</text>
-<text x="169.48" y="654.24" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART1_TXD</text>
-<rect x="179.32" y="664.08" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="672.08" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >99</text>
-<text x="169.48" y="673.92" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART1_RXD</text>
-<rect x="179.32" y="683.76" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
-<text x="189.16" y="691.76" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >100</text>
-<text x="169.48" y="693.6" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >BOOT0</text>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="900">
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!--++++++++++++++++++++++++++[[[ Created by  https://github.com/iDoka/asic-pinout-drawer ]]]++++++++++++++++++++++++++++-->
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!-- debug: filling white to background <rect x="0" y="0" width="1000" height="900" fill="rgb(255,255,255)"/>-->
+<!--++++++++++++++++ Body of IC ++++++++++++++++-->
+<rect x="200" y="250" width="600" height="400" fill="rgb(234,234,234)" stroke-width="3" stroke="rgb(0,0,0)"/>
+<!--++++++++++++++++ Marking first pin ++++++++++++++++-->
+<circle cx="220" cy="630" r="8" fill="rgba(0, 0, 0)"/>
+<!--++++++++++++++++ Legend ++++++++++++++++-->
+<rect x="101.6" y="748.4" width="19.68" height="11.808" fill="blue" stroke-width="0"/>
+<text x="131.12" y="758.24" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">GND</text>
+<rect x="101.6" y="768.08" width="19.68" height="11.808" fill="red" stroke-width="0"/>
+<text x="131.12" y="777.92" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">VDD</text>
+<rect x="101.6" y="787.76" width="19.68" height="11.808" fill="magenta" stroke-width="0"/>
+<text x="131.12" y="797.6" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">VDDO</text>
+<rect x="101.6" y="807.44" width="19.68" height="11.808" fill="gray" stroke-width="0"/>
+<text x="131.12" y="817.28" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">CMOS</text>
+<rect x="101.6" y="827.12" width="19.68" height="11.808" fill="green" stroke-width="0"/>
+<text x="131.12" y="836.96" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">LVDS</text>
+<rect x="101.6" y="846.8" width="19.68" height="11.808" fill="orange" stroke-width="0"/>
+<text x="131.12" y="856.64" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">JTAG</text>
+<rect x="101.6" y="866.48" width="19.68" height="11.808" fill="pink" stroke-width="0"/>
+<text x="131.12" y="876.32" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">XTAL</text>
+<rect x="101.6" y="886.16" width="19.68" height="11.808" fill="rgb(0,255,0)" stroke-width="0"/>
+<text x="131.12" y="896" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start">ANALOG</text>
+<!--++++++++++++++++ BOTTOM SIDE ++++++++++++++++-->
+<rect x="209.84" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="209.84" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 214.76 655.92)">1</text>
+<text x="219.68" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 219.68 660.84)">BOOT1</text>
+<rect x="229.52" y="651" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="229.52" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 234.44 655.92)">2</text>
+<text x="239.36" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 239.36 660.84)">VSS</text>
+<rect x="249.2" y="651" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="249.2" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 254.12 655.92)">3</text>
+<text x="259.04" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 259.04 660.84)">VSS</text>
+<rect x="268.88" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="268.88" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 273.8 655.92)">4</text>
+<text x="278.72" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 278.72 660.84)">SPI1_SCLK</text>
+<rect x="288.56" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="288.56" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 293.48 655.92)">5</text>
+<text x="298.4" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 298.4 660.84)">SPI1_MOSI</text>
+<rect x="308.24" y="651" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="308.24" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 313.16 655.92)">6</text>
+<text x="318.08" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 318.08 660.84)">VDD_33</text>
+<rect x="327.92" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="327.92" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 332.84 655.92)">7</text>
+<text x="337.76" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 337.76 660.84)">SPI1_MISO</text>
+<rect x="347.6" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="347.6" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 352.52 655.92)">8</text>
+<text x="357.44" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 357.44 660.84)">SPI1_SS</text>
+<rect x="367.28" y="651" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="367.28" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 372.2 655.92)">9</text>
+<text x="377.12" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 377.12 660.84)">VDD</text>
+<rect x="386.96" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="386.96" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 391.88 655.92)">10</text>
+<text x="396.8" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 396.8 660.84)">MDC</text>
+<rect x="406.64" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="406.64" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 411.56 655.92)">11</text>
+<text x="416.48" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 416.48 660.84)">MDIO</text>
+<rect x="426.32" y="651" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="426.32" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 431.24 655.92)">12</text>
+<text x="436.16" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 436.16 660.84)">VDD_18</text>
+<rect x="446" y="651" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="446" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 450.92 655.92)">13</text>
+<text x="455.84" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 455.84 660.84)">ALOS</text>
+<rect x="465.68" y="651" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="465.68" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 470.6 655.92)">14</text>
+<text x="475.52" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 475.52 660.84)">VSS</text>
+<rect x="485.36" y="651" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="485.36" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 490.28 655.92)">15</text>
+<text x="495.2" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 495.2 660.84)">VDD1P8</text>
+<rect x="505.04" y="651" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="505.04" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 509.96 655.92)">16</text>
+<text x="514.88" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 514.88 660.84)">VSS</text>
+<rect x="524.72" y="651" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="524.72" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 529.64 655.92)">17</text>
+<text x="534.56" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 534.56 660.84)">TXD_P</text>
+<rect x="544.4" y="651" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="544.4" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 549.32 655.92)">18</text>
+<text x="554.24" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 554.24 660.84)">TXD_N</text>
+<rect x="564.08" y="651" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="564.08" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 569 655.92)">19</text>
+<text x="573.92" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 573.92 660.84)">VDD</text>
+<rect x="583.76" y="651" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="583.76" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 588.68 655.92)">20</text>
+<text x="593.6" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 593.6 660.84)">TCLK_P</text>
+<rect x="603.44" y="651" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="603.44" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 608.36 655.92)">21</text>
+<text x="613.28" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 613.28 660.84)">TCLK_N</text>
+<rect x="623.12" y="651" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="623.12" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 628.04 655.92)">22</text>
+<text x="632.96" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 632.96 660.84)">VDD1P8</text>
+<rect x="642.8" y="651" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="642.8" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 647.72 655.92)">23</text>
+<text x="652.64" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 652.64 660.84)">RXD_P</text>
+<rect x="662.48" y="651" width="9.84" height="19.68" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="662.48" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 667.4 655.92)">24</text>
+<text x="672.32" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 672.32 660.84)">RXD_N</text>
+<rect x="682.16" y="651" width="9.84" height="19.68" fill="rgb(0,255,0)" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="682.16" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 687.08 655.92)">25</text>
+<text x="692" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 692 660.84)">VTT</text>
+<rect x="701.84" y="651" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="701.84" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 706.76 655.92)">26</text>
+<text x="711.68" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 711.68 660.84)">VSS</text>
+<rect x="721.52" y="651" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="721.52" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 726.44 655.92)">27</text>
+<text x="731.36" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 731.36 660.84)">VSS</text>
+<rect x="741.2" y="651" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="741.2" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 746.12 655.92)">28</text>
+<text x="751.04" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 751.04 660.84)">VSS</text>
+<rect x="760.88" y="651" width="9.84" height="19.68" fill="magenta" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="760.88" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 765.8 655.92)">29</text>
+<text x="770.72" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 770.72 660.84)">VDDO_VCO</text>
+<rect x="780.56" y="651" width="9.84" height="19.68" fill="magenta" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="780.56" y="651" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 785.48 655.92)">30</text>
+<text x="790.4" y="660.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" transform="translate(0  19.68) rotate(270 790.4 660.84)">VDDO_PLL</text>
+<!--++++++++++++++++ RIGHT SIDE ++++++++++++++++-->
+<rect x="801" y="630.32" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="638.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >31</text>
+<text x="830.52" y="640.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD</text>
+<rect x="801" y="610.64" width="19.68" height="9.84" fill="rgb(0,255,0)" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="618.64" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >32</text>
+<text x="830.52" y="620.48" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >R_EXT</text>
+<rect x="801" y="590.96" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="598.96" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >33</text>
+<text x="830.52" y="600.8" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD1P8</text>
+<rect x="801" y="571.28" width="19.68" height="9.84" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="579.28" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >34</text>
+<text x="830.52" y="581.12" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RCLK_N</text>
+<rect x="801" y="551.6" width="19.68" height="9.84" fill="green" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="559.6" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >35</text>
+<text x="830.52" y="561.44" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RCLK_P</text>
+<rect x="801" y="531.92" width="19.68" height="9.84" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="539.92" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >36</text>
+<text x="830.52" y="541.76" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VSS</text>
+<rect x="801" y="512.24" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="520.24" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >37</text>
+<text x="830.52" y="522.08" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD_18</text>
+<rect x="801" y="492.56" width="19.68" height="9.84" fill="pink" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="500.56" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >38</text>
+<text x="830.52" y="502.4" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >XIN</text>
+<rect x="801" y="472.88" width="19.68" height="9.84" fill="pink" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="480.88" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >39</text>
+<text x="830.52" y="482.72" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >XOUT</text>
+<rect x="801" y="453.2" width="19.68" height="9.84" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="461.2" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >40</text>
+<text x="830.52" y="463.04" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VSS</text>
+<rect x="801" y="433.52" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="441.52" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >41</text>
+<text x="830.52" y="443.36" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RST_OUT</text>
+<rect x="801" y="413.84" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="421.84" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >42</text>
+<text x="830.52" y="423.68" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >RESET</text>
+<rect x="801" y="394.16" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="402.16" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >43</text>
+<text x="830.52" y="404" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD_18</text>
+<rect x="801" y="374.48" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="382.48" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >44</text>
+<text x="830.52" y="384.32" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TDO</text>
+<rect x="801" y="354.8" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="362.8" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >45</text>
+<text x="830.52" y="364.64" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD</text>
+<rect x="801" y="335.12" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="343.12" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >46</text>
+<text x="830.52" y="344.96" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TRST</text>
+<rect x="801" y="315.44" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="323.44" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >47</text>
+<text x="830.52" y="325.28" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TCK</text>
+<rect x="801" y="295.76" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="303.76" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >48</text>
+<text x="830.52" y="305.6" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TMS</text>
+<rect x="801" y="276.08" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="284.08" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >49</text>
+<text x="830.52" y="285.92" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >VDD_33</text>
+<rect x="801" y="256.4" width="19.68" height="9.84" fill="orange" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="810.84" y="264.4" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >50</text>
+<text x="830.52" y="266.24" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" >TDI</text>
+<!--++++++++++++++++ TOP SIDE ++++++++++++++++-->
+<rect x="780.32" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="780.32" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 785.24 234.24)">51</text>
+<text x="790.16" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 790.16 239.16)">TM</text>
+<rect x="760.64" y="229.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="760.64" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 765.56 234.24)">52</text>
+<text x="770.48" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 770.48 239.16)">VSS</text>
+<rect x="740.96" y="229.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="740.96" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 745.88 234.24)">53</text>
+<text x="750.8" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 750.8 239.16)">VSS</text>
+<rect x="721.28" y="229.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="721.28" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 726.2 234.24)">54</text>
+<text x="731.12" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 731.12 239.16)">VDD_33</text>
+<rect x="701.6" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="701.6" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 706.52 234.24)">55</text>
+<text x="711.44" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 711.44 239.16)">GPIO0</text>
+<rect x="681.92" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="681.92" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 686.84 234.24)">56</text>
+<text x="691.76" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 691.76 239.16)">GPIO1</text>
+<rect x="662.24" y="229.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="662.24" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 667.16 234.24)">57</text>
+<text x="672.08" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 672.08 239.16)">VDD</text>
+<rect x="642.56" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="642.56" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 647.48 234.24)">58</text>
+<text x="652.4" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 652.4 239.16)">GPIO2</text>
+<rect x="622.88" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="622.88" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 627.8 234.24)">59</text>
+<text x="632.72" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 632.72 239.16)">GPIO3</text>
+<rect x="603.2" y="229.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="603.2" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 608.12 234.24)">60</text>
+<text x="613.04" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 613.04 239.16)">VDD_18</text>
+<rect x="583.52" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="583.52" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 588.44 234.24)">61</text>
+<text x="593.36" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 593.36 239.16)">GPT0</text>
+<rect x="563.84" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="563.84" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 568.76 234.24)">62</text>
+<text x="573.68" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 573.68 239.16)">GPT1</text>
+<rect x="544.16" y="229.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="544.16" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 549.08 234.24)">63</text>
+<text x="554" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 554 239.16)">VSS</text>
+<rect x="524.48" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="524.48" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 529.4 234.24)">64</text>
+<text x="534.32" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 534.32 239.16)">GPT2</text>
+<rect x="504.8" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="504.8" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 509.72 234.24)">65</text>
+<text x="514.64" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 514.64 239.16)">GPT3</text>
+<rect x="485.12" y="229.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="485.12" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 490.04 234.24)">66</text>
+<text x="494.96" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 494.96 239.16)">VDD</text>
+<rect x="465.44" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="465.44" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 470.36 234.24)">67</text>
+<text x="475.28" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 475.28 239.16)">TDM_RVIT</text>
+<rect x="445.76" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="445.76" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 450.68 234.24)">68</text>
+<text x="455.6" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 455.6 239.16)">TDM_RSYNC</text>
+<rect x="426.08" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="426.08" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 431 234.24)">69</text>
+<text x="435.92" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 435.92 239.16)">TDM_RCLK</text>
+<rect x="406.4" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="406.4" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 411.32 234.24)">70</text>
+<text x="416.24" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 416.24 239.16)">TDM_WVIT</text>
+<rect x="386.72" y="229.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="386.72" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 391.64 234.24)">71</text>
+<text x="396.56" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 396.56 239.16)">VDD_33</text>
+<rect x="367.04" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="367.04" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 371.96 234.24)">72</text>
+<text x="376.88" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 376.88 239.16)">TDM_WSYNC</text>
+<rect x="347.36" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="347.36" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 352.28 234.24)">73</text>
+<text x="357.2" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 357.2 239.16)">TDM_WCLK</text>
+<rect x="327.68" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="327.68" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 332.6 234.24)">74</text>
+<text x="337.52" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 337.52 239.16)">I2C_SCL</text>
+<rect x="308" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="308" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 312.92 234.24)">75</text>
+<text x="317.84" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 317.84 239.16)">I2C_SDA</text>
+<rect x="288.32" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="288.32" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 293.24 234.24)">76</text>
+<text x="298.16" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 298.16 239.16)">UART0_DTR</text>
+<rect x="268.64" y="229.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="268.64" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 273.56 234.24)">77</text>
+<text x="278.48" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 278.48 239.16)">VSS</text>
+<rect x="248.96" y="229.32" width="9.84" height="19.68" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="248.96" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 253.88 234.24)">78</text>
+<text x="258.8" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 258.8 239.16)">VSS</text>
+<rect x="229.28" y="229.32" width="9.84" height="19.68" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="229.28" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 234.2 234.24)">79</text>
+<text x="239.12" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 239.12 239.16)">VDD</text>
+<rect x="209.6" y="229.32" width="9.84" height="19.68" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="209.6" y="229.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" transform="translate(7.995) rotate(270 214.52 234.24)">80</text>
+<text x="219.44" y="239.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="start" transform="translate(0  -19.68) rotate(270 219.44 239.16)">UART0_DSR</text>
+<!--++++++++++++++++ LEFT SIDE ++++++++++++++++-->
+<rect x="179.32" y="259.84" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="267.84" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >81</text>
+<text x="169.48" y="269.68" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_RTS</text>
+<rect x="179.32" y="279.52" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="287.52" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >82</text>
+<text x="169.48" y="289.36" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD_33</text>
+<rect x="179.32" y="299.2" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="307.2" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >83</text>
+<text x="169.48" y="309.04" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_CTS</text>
+<rect x="179.32" y="318.88" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="326.88" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >84</text>
+<text x="169.48" y="328.72" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_TXD</text>
+<rect x="179.32" y="338.56" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="346.56" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >85</text>
+<text x="169.48" y="348.4" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART0_RXD</text>
+<rect x="179.32" y="358.24" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="366.24" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >86</text>
+<text x="169.48" y="368.08" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD_18</text>
+<rect x="179.32" y="377.92" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="385.92" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >87</text>
+<text x="169.48" y="387.76" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_SCLK</text>
+<rect x="179.32" y="397.6" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="405.6" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >88</text>
+<text x="169.48" y="407.44" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_MOSI</text>
+<rect x="179.32" y="417.28" width="19.68" height="9.84" fill="blue" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="425.28" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >89</text>
+<text x="169.48" y="427.12" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VSS</text>
+<rect x="179.32" y="436.96" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="444.96" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >90</text>
+<text x="169.48" y="446.8" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_MISO</text>
+<rect x="179.32" y="456.64" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="464.64" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >91</text>
+<text x="169.48" y="466.48" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >SPI0_SS</text>
+<rect x="179.32" y="476.32" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="484.32" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >92</text>
+<text x="169.48" y="486.16" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD</text>
+<rect x="179.32" y="496" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="504" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >93</text>
+<text x="169.48" y="505.84" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART3_TXD</text>
+<rect x="179.32" y="515.68" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="523.68" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >94</text>
+<text x="169.48" y="525.52" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART3_RXD</text>
+<rect x="179.32" y="535.36" width="19.68" height="9.84" fill="red" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="543.36" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >95</text>
+<text x="169.48" y="545.2" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >VDD_33</text>
+<rect x="179.32" y="555.04" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="563.04" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >96</text>
+<text x="169.48" y="564.88" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART2_TXD</text>
+<rect x="179.32" y="574.72" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="582.72" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >97</text>
+<text x="169.48" y="584.56" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART2_RXD</text>
+<rect x="179.32" y="594.4" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="602.4" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >98</text>
+<text x="169.48" y="604.24" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART1_TXD</text>
+<rect x="179.32" y="614.08" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="622.08" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >99</text>
+<text x="169.48" y="623.92" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >UART1_RXD</text>
+<rect x="179.32" y="633.76" width="19.68" height="9.84" fill="gray" stroke-width="1" stroke="rgb(0,0,0)"/>
+<text x="189.16" y="641.76" font-family="PT Sans, Helvetica, Tahoma, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" >100</text>
+<text x="169.48" y="643.6" font-family="PT Sans, Helvetica, sans-serif" font-size="15.3" font-weight="bold" fill="black" text-anchor="end" >BOOT0</text>
 </svg>
