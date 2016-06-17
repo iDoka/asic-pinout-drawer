@@ -52,9 +52,9 @@
   $pins_number["y"]     = 16;
 */
 
-  $partnumber = "DokaChip";
+  //$partnumber = "DokaChip";
   // uncomment this for you dont wish to draw partnumber:
-  //$partnumber = "";
+  $partnumber = "";
 
   $precission = 2; // two sign after comma
 
@@ -111,6 +111,10 @@
   $pin_x =  round($case_x/($pins_number["x"]*2+1), $precission);
   $pin_y =  round($pin_x * 2, $precission);
 
+  // this parameter for manual adjasting (set this for non-overlapping with pin-name on bottom side):
+  $legend_offset = 6*$pin_y;
+
+
 	// To kick off the SVG document, we need to declare the page doctype, here it is.
 
 	$svg =  <<< HEREDOC
@@ -123,7 +127,7 @@ HEREDOC;
 
 
 DrawingPartnumber();
-
+DrawingLegend();
 
 ###########################################################################################################
 

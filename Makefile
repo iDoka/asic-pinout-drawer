@@ -18,7 +18,7 @@ PNG_DENSITY=$(shell echo 72*$(PNG_SCALE) | bc)
 all:
 	@grep -v "====" $(FILE).adoc | grep -e "^|" | sed 's/^|//' | sed 's/[ ]*|[ ]*/|/g' > $(FILE).csv
 	@$(eval PIN_COUNT=$(shell cat $(FILE).csv | wc -l))
-	@echo "Amount of pins will be processed (from source ASCIIDOC-table): $(PIN_COUNT)"
+	@echo "Amount of pins will be processed (from source AsciiDoc-table): $(PIN_COUNT)"
 	@php parse-csv.php  $(FILE).csv  > $(FILE).json
 	@php pinout-gen.php $(FILE).json > $(FILE).svg
 	@echo "Drawing done!"

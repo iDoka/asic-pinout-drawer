@@ -64,7 +64,7 @@ CAUTION: Unfortunately Github don't support ember svg-image on README page. Do n
 
 [options="readonly"]
 * [x] Place the Partnumber on the top of chip
-* [ ] Add legend to output
+* [x] Add legend to output
 * [ ] Read config from JSON- or ini-file (prefferable)
 * [ ] BGA matrix enclosure supporting:
 ** [ ] basic functionality for drawer

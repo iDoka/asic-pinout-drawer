@@ -11,7 +11,9 @@
 
 ###########################################################
 function DrawingPinBody($pin_attribute) {
+
   GLOBAL $pin_x, $pin_y;
+
   if (($pin_attribute["side"] === "BOTTOM") || ($pin_attribute["side"] === "TOP")) {
     $width  = $pin_x;
     $height = $pin_y;
@@ -19,6 +21,7 @@ function DrawingPinBody($pin_attribute) {
     $width  = $pin_y;
     $height = $pin_x;
   }
+
   echo "<rect x=\"".$pin_attribute["body_offset_x"]."\" y=\"".$pin_attribute["body_offset_y"]."\" width=\"$width\" height=\"$height\" fill=\"".$pin_attribute["color"]."\" stroke-width=\"1\" stroke=\"rgb(0,0,0)\"/>".PHP_EOL;
 }
 
@@ -99,6 +102,36 @@ function DrawingPartnumber() {
   $color  = $font_partnumber_color;
 
   echo "<text x=\"$x\" y=\"$y\" font-family=\"$font\" font-size=\"$size\" font-weight=\"$weight\" fill=\"$color\" text-anchor=\"middle\" alignment-baseline=\"middle\">$partnumber</text>".PHP_EOL;
+}
+
+
+###########################################################
+function DrawingLegend() {
+
+  GLOBAL $pin_color, $legend_offset;
+  GLOBAL $case_x, $case_y, $case_offset_x, $case_offset_y, $pin_x, $pin_y;
+  GLOBAL $font_pin_name_family, $font_pin_name_size, $font_pin_name_weight, $font_pin_name_color;
+
+  $font   = $font_pin_name_family;
+  $size   = $font_pin_name_size;
+  $weight = $font_pin_name_weight; // or normal?
+  $color  = $font_pin_name_color;
+
+  $width  = $pin_y;
+  $height = $pin_x*1.2;
+
+  $incr_y = 0;
+
+  foreach ($pin_color as $legend => $color_for_pin){
+    $x = $case_offset_x - 5*$pin_y;
+    $y = $case_offset_y + $case_y + $legend_offset + 1*$pin_y*$incr_y;
+    echo "<rect x=\"$x\" y=\"$y\" width=\"$width\" height=\"$height\" fill=\"$color_for_pin\" stroke-width=\"0\"/>".PHP_EOL;
+    $x = $x + $pin_y + $pin_x;
+    $y = $y + $pin_x;
+    echo "<text x=\"$x\" y=\"$y\" font-family=\"$font\" font-size=\"$size\" font-weight=\"$weight\" fill=\"$color\" text-anchor=\"start\">$legend</text>".PHP_EOL;
+    $incr_y++;
+  }
+
 }
 
 ?>
