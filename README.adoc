@@ -1,6 +1,7 @@
 = ASIC Pinout Drawer
 Dmitry Murzinov <kakstattakim@gmail.com>
 v1.0, 15.06.2016
+:doctype: article
 :lang: en
 :stem:
 :grid: all
@@ -33,6 +34,11 @@ AsciiDoc    -->    CSV    -->      JSON       -->    SVG    -->      PNG
 * http://www.paratype.com/public/[PT fonts] - that awesome font family include Latin and Cyrillic characters and covers almost all minority languages of the Russian Federation. http://www.paratype.com/uni/public/PTSans.zip[Direct link to download PT Sans] that preffer use to SVG generate
 * ImageMagick (for png generate)
 * https://atom.io/[Atom] with https://atom.io/packages/asciidoc-preview[asciidoc-preview] plugin for comfortable creation and live-preview of asciidoc tables
+
+
+== Features
+
+
 
 == Usage
 
