@@ -11,6 +11,8 @@ v1.0, 15.06.2016
 
 This is simple IC-case drawer with proper pin assignment
 
+NOTE: Russian description available here: http://idoka.ru/php-asic-pinout-generator/
+
 == Intro
 
 Simplifying diagram to explanation tool works:
